@@ -1,6 +1,7 @@
 'use client';
 
 import InstagramEmbed from '@/components/InstagramEmbed';
+import { LinkedInEmbed } from 'react-social-media-embed';
 import { useState, useEffect } from 'react';
 
 export default function Home() {
@@ -54,8 +55,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section className='mb-8 flex flex-col gap-4'>
         <InstagramEmbed />
+        <div className='flex w-full justify-center'>
+          <LinkedInEmbed
+            url='https://www.linkedin.com/company/camber-racing/'
+            width={550}
+          />
+        </div>
       </section>
     </main>
   );

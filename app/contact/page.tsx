@@ -54,13 +54,13 @@ export default function ContactPage() {
           Contact Us
         </h1>
         <p className='mb-5 w-full text-gray-600 lg:w-3/4'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-          adipisci quam ullam natus.
+          We are always here to help you. Feel free to reach out to us with any
+          questions or feedback.
         </p>
-        <p className='mb-2 text-gray-600'>camber@gmail.com</p>
-        <p className='mb-5 text-gray-600'>+91 7898495793</p>
+        <p className='mb-2 text-gray-600'>prcorporate.camberracing@gmail.com</p>
+        <p className='mb-5 text-gray-600'>+91 98849 01482</p>
         <a
-          href='mailto:camber@gmail.com'
+          href='mailto:prcorporate.camberracing@gmail.com'
           className='mb-10 font-semibold underline'
         >
           Customer Support
@@ -77,8 +77,8 @@ export default function ContactPage() {
           <div>
             <h3 className='mb-2 font-semibold'>Feedback and Suggestions</h3>
             <p className='text-sm text-gray-600'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
-              molestias sunt ad nostrum minima. Pariatur.
+              We value your feedback and suggestions. Please feel free to share
+              your thoughts with us.
             </p>
           </div>
           <div>
