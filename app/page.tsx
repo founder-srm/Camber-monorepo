@@ -1,7 +1,9 @@
 'use client';
 
 import InstagramEmbed from '@/components/InstagramEmbed';
+import { LinkedInEmbed } from 'react-social-media-embed';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const images = [
@@ -54,8 +56,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section className='mb-8 flex flex-col gap-4'>
         <InstagramEmbed />
+        <a
+          href='https://www.linkedin.com/company/camber-racing/'
+          className='flex w-full items-center justify-center gap-2 p-4'
+        >
+          <Image src='/linkedin.svg' alt='LinkedIn' width={50} height={50} />
+          <span className='text-lg font-semibold text-gray-800'>
+            Camber Racing
+          </span>
+        </a>
       </section>
     </main>
   );

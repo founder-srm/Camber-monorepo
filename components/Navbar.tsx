@@ -22,6 +22,8 @@ export function Navbar() {
     'CR14',
     'CR16',
     'CRX',
+    'CR19',
+    'CR24',
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
